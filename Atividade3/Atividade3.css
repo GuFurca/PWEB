@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* slide 26 - aula 3 */
+    background-color: #5e6481;
+    /* slide 23 - aula3 */
+}
+
+#about{
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    /*Slide 17 - 21 - Aula3 */
+    border-radius: 10px;
+    /*Slide 17 -aula 3 */
+    max-width: 800px;
+}
+
+.container {
+  text-align: center;
+}
