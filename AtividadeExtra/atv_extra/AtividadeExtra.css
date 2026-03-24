@@ -1,0 +1,51 @@
+body {
+  background-image: url("mimikyu_muitofofo.jpg");
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana,
+sans-serif;
+  line-height: 1.6;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+.texto1 {
+background-color: #FFF;
+border: 1px solid #CCC;
+border-color: #CCC #999 #999 #CCC;
+margin-bottom: 20px;
+padding: 10px; /* espaçamento entre a borda e o título */
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* um embaixo do outro */
+  gap: 20px;
+}
+
+.card {
+  display: flex; /* imagem + texto lado a lado */
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.card img {
+  width: 120px;
+  height: 100px;
+  object-fit: cover; /* deixa a imagem encaixadinha */
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+.card-text h3 {
+  margin: 0;
+}
+
+.card-text p {
+  margin-top: 5px;
+}
