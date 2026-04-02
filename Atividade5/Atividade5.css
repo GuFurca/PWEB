@@ -1,0 +1,91 @@
+body {
+	font: 150% Arial, Helvetica, sans-serif;
+}
+#trabaio {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#titulozim{
+    font-size: 100px;
+
+}
+
+@media screen and (max-width: 420px)  {
+	
+	#trabaio {
+		background-color: gray;
+    }
+
+    #titulozim::before {
+        content: "cinza";
+    }
+}
+
+@media (min-width: 421px) and (max-width: 768px) {
+	
+	#trabaio {
+		background-color: orange;
+    }
+    
+    #titulozim::before {
+        content: "laranja";
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+	
+	#trabaio {
+		background-color: palevioletred;
+    }
+    #titulozim::before {
+        content: "rosinha";
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1080px) {
+	
+	#trabaio {
+		background-color: red;
+    }
+    #titulozim::before {
+        content: "vermelho";
+    }
+}
+
+@media (min-width: 1081px) and (max-width: 1366px) {
+	
+	#trabaio {
+		background-color: purple;
+    }
+    #titulozim::before {
+        content: "roxo";
+    }
+
+}
+
+@media (min-width: 1367px) and (max-width: 1920px) {
+	
+	#trabaio {
+		background-color: yellow;
+    }
+    #titulozim::before {
+        content: "amarelo";
+    }
+
+}
+
+@media (min-width: 1921px) {
+	
+	#trabaio {
+		background-color: greenyellow;
+    }
+    #titulozim::before {
+        content: "verdinho claro";
+    }
+
+}
