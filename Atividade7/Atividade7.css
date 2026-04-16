@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* slide 26 - aula 3 */
+    background-color: #5e6481;
+    /* slide 23 - aula3 */
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;           
+  }
+
+button {
+    padding: 150px 300px;      
+    font-size: 36px;         
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #4fc568;
+  }
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
