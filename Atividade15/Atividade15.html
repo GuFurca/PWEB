@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade15</title>
+    <script src="Atividade15.js"></script>
+    <link rel="stylesheet" href="Atividade15.css">
+</head>
+<body>
+    <form method="POST" name="formulario1" id="formulario1" onsubmit="return validarDados();">
+
+        <div id="principal" class="container">
+            Nome Completo:
+            <input name="idNome" type="text" id="idNome" size="52" maxlength="150">
+            <br>
+            <br> E-Mail :
+            <input name="idEmail" type="email" id="idEmail" size="52" maxlength="150">
+            <br>
+            <br> Comentário :
+            <br>
+            <textarea name="idMensagem" cols="50" rows="8" id="idMensagem" value="" input></textarea>
+            <br>
+            <br>
+            <br>
+            <br> Pesquisa :
+            <br>
+            <br> Primeira vez aqui, amigo?
+            <input name = "FirstTime" type ="radio" id="IdRadio1" form="formulario1" value="Sim" checked> Sim
+            <input name = "FirstTime" type ="radio" id="IdRadio2" form="formulario1" value="Não"> Não
+            <br>
+            <br>
+            <input name="Submit" type="submit" form="formulario1" value="Enviar">
+            <input name="Reset" type="reset" form="formulario1" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
